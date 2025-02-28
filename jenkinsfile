@@ -17,7 +17,7 @@ pipeline {
         }
         stage('Run Script') {
             steps {
-                bat '.\\venv\\Scripts\\python app.py'  // Exécute le script Python
+                bat '.\\venv\\Scripts\\python test.py'  // Exécute le script Python
             }
         }
         stage('Notify') {
